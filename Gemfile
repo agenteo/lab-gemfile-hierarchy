@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+path 'components'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -36,5 +37,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'admin_ui', path: 'components/admin_ui'
-gem 'public_ui', path: 'components/public_ui'
+gem 'admin_ui'
+gem 'public_ui'

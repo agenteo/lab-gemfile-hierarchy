@@ -1,19 +1,11 @@
 PATH
-  remote: components/admin_ui
+  remote: components
   specs:
     admin_ui (0.0.1)
       domain_logic
       rails (~> 4.1.8)
-
-PATH
-  remote: components/domain_logic
-  specs:
     domain_logic (0.0.1)
       rails (~> 4.1.8)
-
-PATH
-  remote: components/public_ui
-  specs:
     public_ui (0.0.1)
       domain_logic
       rails (~> 4.1.8)
@@ -127,12 +119,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  admin_ui!
+  admin_ui
   coffee-rails (~> 4.0.0)
-  domain_logic!
   jbuilder (~> 2.0)
   jquery-rails
-  public_ui!
+  public_ui
   rails (= 4.1.8)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
