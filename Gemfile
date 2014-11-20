@@ -38,4 +38,3 @@ gem 'spring',        group: :development
 
 gem 'admin_ui', path: 'components/admin_ui'
 gem 'public_ui', path: 'components/public_ui'
-gem 'domain_logic', path: 'components/domain_logic'
